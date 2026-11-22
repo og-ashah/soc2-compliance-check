@@ -1,7 +1,7 @@
 # SOC 2 Compliance Readiness Check
 
 [![CI](https://github.com/og-ashah/soc2-compliance-check/actions/workflows/ci.yml/badge.svg)](https://github.com/og-ashah/soc2-compliance-check/actions/workflows/ci.yml)
-![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 ![Dependencies](https://img.shields.io/badge/dependencies-none-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
