@@ -1,7 +1,7 @@
 # SOC 2 Compliance Readiness Check
 
 [![CI](https://github.com/og-ashah/soc2-compliance-check/actions/workflows/ci.yml/badge.svg)](https://github.com/og-ashah/soc2-compliance-check/actions/workflows/ci.yml)
-![Python](https://img.shields.io/badge/python-3.8%2B-blue)
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![Dependencies](https://img.shields.io/badge/dependencies-none-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
@@ -11,7 +11,7 @@ dependency scanning, logging, incident response, backups) and gives you a priori
 
 It ships as:
 
-- **A Python CLI** (`soc2_check.py`): standard library only, no `pip install`, works in CI.
+- **A Python CLI** (`soc2_check.py`, Python 3.8+): standard library only, no `pip install`, works in CI.
 - **A Claude skill** (`skills/soc2-compliance-check/`): ask Claude "is this repo SOC 2 ready?" and it runs the check, verifies the findings and explains the fixes.
 
 > ⚠️ **This is not a SOC 2 audit or certification.** SOC 2 is an attestation performed by a licensed CPA
