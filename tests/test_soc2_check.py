@@ -6,6 +6,7 @@ Run with:  python3 -m unittest discover -s tests -v
 import importlib.util
 import io
 import os
+import sys
 import tempfile
 import unittest
 from contextlib import redirect_stdout
@@ -17,6 +18,7 @@ EXAMPLES = ROOT / "examples"
 
 spec = importlib.util.spec_from_file_location("soc2_check", SCRIPT)
 soc2 = importlib.util.module_from_spec(spec)
+sys.modules["soc2_check"] = soc2  # needed by dataclasses on Python 3.12+
 spec.loader.exec_module(soc2)
 
 
