@@ -1,0 +1,12 @@
+{
+  "name": "compliant-demo-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test tests/",
+    "lint": "eslint ."
+  },
+  "dependencies": { "pino": "^9.0.0" },
+  "devDependencies": { "eslint": "^9.0.0" }
+}
